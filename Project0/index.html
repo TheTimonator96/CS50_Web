@@ -6,9 +6,28 @@
             div {
                 text-align:right;
             }
+            #search {
+                border-radius: 30px;
+                width: 200px;
+            }
+            form {
+                text-align: center;
+            }
+            h1 {
+                text-align: center;
+            }
+            #ifl {
+                margin: 20px;
+            }
+            #toogle {
+                align: center;
+            }
         </style>
     </head>
     <body>
+        <div>
+            <img src="Screenshot 2023-08-28 at 22.55.13.png" alt="toogle" width="500" height="333" id="toogle">
+        </div>
         <div>
             <button>
                 <a href="asearch.html">Advanced Search</a>
@@ -20,8 +39,11 @@
     </body>
     <body>
         <form action="https://www.google.com/search">
-            <input type="text" name="q">
+            <input type="text" name="q" id="search">
             <input type="submit" value="Google Search">
+        </form>
+        <form action="" id="ifl">
+            <button>I'm Feeling Lucky</button>
         </form>
     </body>
 </html>
