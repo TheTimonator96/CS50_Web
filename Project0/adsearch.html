@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title style="color:rgb(237, 80, 80)">Advanced Search</title>
+        <style>
+            button {
+                
+            }
+            h1 {
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: large;
+                color: red;
+            }
+            h2 {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: medium;
+                color: black;
+            }
+            #a {
+                width: 300px;
+                border-radius: 5px;
+                margin-bottom: 10px;
+                text-indent: 5px;
+            }
+            #submit {
+                background-color: #4285F4;
+                color: white;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div>
+            <p>
+                <h1>Advanced Search</h1>
+                <button style="text-align:right; text-decoration: none;"><a href="index.html">Back Home</a></button>
+            </p>
+        </div>
+        <div>
+            <form action="https://www.google.com/advanced_search">
+                <h2>Find pages with...</h2>
+               <div>
+                   <input type="text" placeholder="all these words:" name="as_q" id="a">
+               </div>
+               <div>
+                   <input type="text" placeholder="this exact word or phrase:" name="as_epq" id="a">
+               </div>
+               <div>
+                   <input type="text" placeholder="any of these words:" name="as_oq" id="a">
+               </div>
+               <div>
+                   <input type="text" placeholder="none of these words:" name="as_eq" id="a">
+               </div>
+               <div>
+                   <input type="submit" value="advanced search" id="submit">
+               </div>
+           </form>
+        </div>
+    </body>
+</html>
