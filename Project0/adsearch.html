@@ -4,8 +4,17 @@
     <head>
         <title style="color:rgb(237, 80, 80)">Advanced Search</title>
         <style>
-            button {
-                
+            .border {
+                border: 2px blue dashed;
+            }
+            .mr-0 {
+                margin-right: 0;
+            }
+            .ml-auto {
+                margin-left:auto;
+            }
+            .d-block {
+                display:block;
             }
             h1 {
                 margin-top: 20px;
@@ -28,6 +37,9 @@
                 background-color: #4285F4;
                 color: white;
             }
+            input[type=button], input[type=submit] {
+                border-radius: 10px;
+            }
         </style>
     </head>
 
@@ -35,7 +47,9 @@
         <div>
             <p>
                 <h1>Advanced Search</h1>
-                <button style="text-align:right; text-decoration: none;"><a href="index.html">Back Home</a></button>
+                <a href="index.html">
+                    <input type="submit" class="d-block mr-0 ml-auto" value="Take Me Home" style="text-decoration:none">
+                 </a>
             </p>
         </div>
         <div>

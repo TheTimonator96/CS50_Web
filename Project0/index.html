@@ -29,13 +29,21 @@
             #ifl {
                 margin: 20px;
             }
+            input[type=button], input[type=submit] {
+                border-radius: 10px;
+            }
+            input:hover[type=button], input:hover[type=submit] {
+                background-color: #4285F4;
+                color: white;
+                border-radius: 10px;
+            }
             
         </style>
     </head>
     <body>
         <form action="https://www.google.com/search">
             <input type="text" name="q" id="search">
-            <input type="submit" value="Google Search">
+            <input type="submit" value="Search">
         </form>
         <form action="" id="ifl">
             <button>

@@ -19,6 +19,14 @@
                 text-align: center;
                 font-family: Arial, Helvetica, sans-serif;
             }
+            input[type=button], input[type=submit] {
+                border-radius: 10px;
+            }
+            input:hover[type=button], input:hover[type=submit] {
+                background-color: #4285F4;
+                color: white;
+                border-radius: 10px;
+            }
         </style>
     </head>
     <body>
@@ -27,7 +35,7 @@
                 <a href="index.html">Back home</a>
             </button>
         </div>
-        <h1>Image Search</h1>
+        <h1>IMAGES</h1>
         <form action="https://images.google.com/">
             <input type="text" placeholder="image" name="q" id="image_search">
             <input type="submit" value="Image Search">
